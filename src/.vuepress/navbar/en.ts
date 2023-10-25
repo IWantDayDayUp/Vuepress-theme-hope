@@ -11,26 +11,19 @@ export const enNavbar = navbar([
       {
         text: "Codeforces",
         icon: "pen-to-square",
-        prefix: "Codeforces/",
-        children: [
-          // { text: "Apple1", icon: "pen-to-square", link: "1" },
-          // { text: "Apple2", icon: "pen-to-square", link: "2" },
-          // { text: "项目骨架", link: "https://github.com/macrozheng/mall-tiny",},
-          // "3",
-          // "4",
-
-        ],
+        // prefix: "AtCoder/",
+        // children: [
+        //   // { text: "Apple1", icon: "pen-to-square", link: "1" },
+        //   // { text: "Apple2", icon: "pen-to-square", link: "2" },
+        //   // "3",
+        //   // "4",
+        // ],
+        link: "Codeforces/",
       },
       {
         text: "AtCoder",
         icon: "pen-to-square",
-        prefix: "AtCoder/",
-        children: [
-          // { text: "Apple1", icon: "pen-to-square", link: "1" },
-          // { text: "Apple2", icon: "pen-to-square", link: "2" },
-          // "3",
-          // "4",
-        ],
+        link: "AtCoder/",
       },
       {
         text: "LeetCode",
@@ -42,6 +35,7 @@ export const enNavbar = navbar([
           // "3",
           // "4",
         ],
+        link: "LeetCode/",
       },
     ],
   },
