@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: Home
 heroImage: /logo.svg
 heroText: TayLock
 tagline: On the way up
