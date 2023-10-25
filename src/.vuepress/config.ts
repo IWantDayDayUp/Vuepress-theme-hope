@@ -10,11 +10,11 @@ export default defineUserConfig({
       title: "TayLock",
       description: "A blog demo for vuepress-theme-hope",
     },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "TayLock",
-      description: "vuepress-theme-hope 的博客演示",
-    },
+    // "/zh/": {
+    //   lang: "zh-CN",
+    //   title: "TayLock",
+    //   description: "vuepress-theme-hope 的博客演示",
+    // },
   },
 
   theme,
